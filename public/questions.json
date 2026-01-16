@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "React là gì?",
+    "options": ["Framework", "Library", "Ngôn ngữ", "Hệ điều hành"],
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "question": "JSX trong React dùng để làm gì?",
+    "options": [
+      "Viết CSS",
+      "Viết HTML trong JavaScript",
+      "Kết nối database",
+      "Gọi API"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "question": "Đâu là hook dùng để quản lý state trong React?",
+    "options": ["useEffect", "useState", "useRef", "useMemo"],
+    "answer": 1
+  },
+  {
+    "id": 4,
+    "question": "HTML là viết tắt của gì?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Hyperlink Text Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "question": "CSS dùng để làm gì?",
+    "options": [
+      "Xử lý logic",
+      "Thiết kế giao diện",
+      "Kết nối server",
+      "Quản lý database"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "question": "Ngôn ngữ nào chạy trực tiếp trên trình duyệt?",
+    "options": ["Java", "C#", "Python", "JavaScript"],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "question": "Lệnh nào dùng để cài package trong npm?",
+    "options": [
+      "npm start",
+      "npm install",
+      "npm build",
+      "npm run dev"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 8,
+    "question": "Trong Git, lệnh nào dùng để tải code về máy?",
+    "options": ["git push", "git pull", "git commit", "git branch"],
+    "answer": 1
+  },
+  {
+    "id": 9,
+    "question": "LocalStorage dùng để làm gì?",
+    "options": [
+      "Lưu dữ liệu tạm trên server",
+      "Lưu dữ liệu trên trình duyệt",
+      "Lưu file trên máy",
+      "Lưu session trên backend"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10,
+    "question": "HTTP status code 404 có nghĩa là gì?",
+    "options": [
+      "Thành công",
+      "Không tìm thấy",
+      "Lỗi server",
+      "Không có quyền truy cập"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "question": "Đâu là cơ sở dữ liệu?",
+    "options": ["React", "NodeJS", "MySQL", "HTML"],
+    "answer": 2
+  },
+  {
+    "id": 12,
+    "question": "Trong lập trình, bug là gì?",
+    "options": [
+      "Tính năng mới",
+      "Lỗi chương trình",
+      "Phiên bản nâng cấp",
+      "Công cụ hỗ trợ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "API là viết tắt của gì?",
+    "options": [
+      "Application Programming Interface",
+      "Advanced Program Internet",
+      "Applied Protocol Interface",
+      "Application Process Information"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "question": "Framework frontend phổ biến hiện nay là gì?",
+    "options": ["React", "Laravel", "Spring", "Django"],
+    "answer": 0
+  },
+  {
+    "id": 15,
+    "question": "Đâu là hệ điều hành?",
+    "options": ["Chrome", "Windows", "Google", "React"],
+    "answer": 1
+  },
+  {
+    "id": 16,
+    "question": "GitHub dùng để làm gì?",
+    "options": [
+      "Lưu trữ mã nguồn",
+      "Thiết kế giao diện",
+      "Chạy server",
+      "Quản lý database"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 17,
+    "question": "Trong JavaScript, kiểu dữ liệu nào là boolean?",
+    "options": ["true/false", "1/0", "yes/no", "on/off"],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "question": "Lệnh nào để build project React?",
+    "options": [
+      "npm start",
+      "npm install",
+      "npm run build",
+      "npm test"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 19,
+    "question": "Frontend là gì?",
+    "options": [
+      "Phần giao diện người dùng",
+      "Phần xử lý server",
+      "Cơ sở dữ liệu",
+      "API backend"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "question": "Netlify thường dùng để làm gì?",
+    "options": [
+      "Deploy frontend",
+      "Quản lý database",
+      "Viết backend",
+      "Thiết kế UI"
+    ],
+    "answer": 0
+  }
+]

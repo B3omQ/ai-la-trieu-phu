@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #001f54, #000814);
+  color: #ffd700;
+}
+
+.game {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-Content: center;
+  align-Items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.question-box {
+  background: #001d3d;
+  border: 2px solid #ffd700;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.answer {
+  background: #003566;
+  border: 2px solid #ffd700;
+  border-radius: 30px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffd700;
+  margin: 10px;
+}
+
+.answer:hover {
+  background: #ffd700;
+  color: #000;
+}
+
+.lifelines {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.lifeline {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #003566;
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lifeline:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.money {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.safe {
+  color: #ffd700;
+}
+
+.warning {
+  color: orange;
+}
+
+.danger {
+  color: red;
+}
+
+.end-screen {
+      display: flex;
+      flex-direction: column;
+      justify-Content: center;
+      align-Items: center;
+      height: 100vh;
+      color: #FFD700;
+      text-align: center;
+}
+
+
+
