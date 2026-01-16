@@ -25,7 +25,7 @@ export default function Start() {
         BẮT ĐẦU CHƠI
       </button>
       <button className="answer" onClick={() => navigate("/records")}>
-        Xem bảng xếp hạng
+        Xem Ranking
       </button>
     </div>
   );
