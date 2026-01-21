@@ -1,4 +1,4 @@
-import { getRecord } from "../utils/record";
+import { listenRecords } from "../utils/record";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -7,7 +7,18 @@ export default function Records() {
   const nav = useNavigate();
 
   useEffect(() => {
-    getRecord().then(setData);
+    const unsubscribe = listenRecords((records) => {
+      // 🔥 SORT Ở ĐÂY
+      records.sort((a, b) =>
+        b.money !== a.money
+          ? b.money - a.money
+          : a.time - b.time
+      );
+
+      setData(records);
+    });
+
+    return () => unsubscribe();
   }, []);
 
   const formatDate = (dateStr) => {
@@ -23,18 +34,19 @@ export default function Records() {
 
   return (
     <div className="game safe">
-      <h1>Rankings</h1>
+      <h1>🏆 BẢNG XẾP HẠNG</h1>
 
       {data.length === 0 && <p>Chưa có dữ liệu</p>}
 
       {data.map((r, i) => (
-  <div key={i}>
-    {r?.name || "Unknown"} –{" "}
-    {Number(r?.money || 0).toLocaleString()} VND –{" "}
-    {r?.date ? formatDate(r.date) : "N/A"}
-  </div>
-))}
-
+        <div key={r.id} className="record-row">
+          <b>#{i + 1}</b>{" "}
+          {r.name} –{" "}
+          {Number(r.money).toLocaleString()} VND –{" "}
+          ⏱ {r.time ?? "?"}s –{" "}
+          {r.date ? formatDate(r.date) : "N/A"}
+        </div>
+      ))}
 
       <button className="answer" onClick={() => nav("/")}>
         Quay lại
@@ -42,4 +54,3 @@ export default function Records() {
     </div>
   );
 }
-

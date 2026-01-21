@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Timer({ onTimeout }) {
+export default function Timer({ onTimeout, onTick }) {
   const [time, setTime] = useState(30);
 
   useEffect(() => {
@@ -8,6 +8,8 @@ export default function Timer({ onTimeout }) {
       onTimeout();
       return;
     }
+    
+    onTick?.(30 - time);
     const t = setTimeout(() => setTime(time - 1), 1000);
     return () => clearTimeout(t);
   }, [time]);
