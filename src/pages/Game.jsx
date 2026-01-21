@@ -63,7 +63,6 @@ export default function Game() {
         <h2>
           {player} đạt {money.toLocaleString()} VND
         </h2>
-        <p>⏱️ Thời gian: {duration} giây</p>
 
         <button
           className="answer"

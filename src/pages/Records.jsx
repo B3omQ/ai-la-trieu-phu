@@ -12,7 +12,7 @@ export default function Records() {
       records.sort((a, b) =>
         b.money !== a.money
           ? b.money - a.money
-          : a.time - b.time
+          : new Date(a.date) - new Date(b.date)
       );
 
       setData(records);
@@ -43,7 +43,6 @@ export default function Records() {
           <b>#{i + 1}</b>{" "}
           {r.name} –{" "}
           {Number(r.money).toLocaleString()} VND –{" "}
-          ⏱ {r.time ?? "?"}s –{" "}
           {r.date ? formatDate(r.date) : "N/A"}
         </div>
       ))}
