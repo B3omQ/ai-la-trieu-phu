@@ -1,182 +1,222 @@
 [
   {
     "id": 1,
-    "question": "React là gì?",
-    "options": ["Framework", "Library", "Ngôn ngữ", "Hệ điều hành"],
+    "question": "Theo khung lý thuyết này, cơ sở nền tảng để định nghĩa giai cấp xã hội là gì?",
+    "options": [
+      "Mức thu nhập hàng tháng",
+      "Vị trí trong hệ thống sản xuất xã hội",
+      "Trường học và nền tảng giáo dục",
+      "Văn hóa và lối sống"
+    ],
     "answer": 1
   },
   {
     "id": 2,
-    "question": "JSX trong React dùng để làm gì?",
+    "question": "Một trong bốn trụ cột của định nghĩa giai cấp là mối quan hệ đối với cái gì?",
     "options": [
-      "Viết CSS",
-      "Viết HTML trong JavaScript",
-      "Kết nối database",
-      "Gọi API"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 3,
-    "question": "Đâu là hook dùng để quản lý state trong React?",
-    "options": ["useEffect", "useState", "useRef", "useMemo"],
-    "answer": 1
-  },
-  {
-    "id": 4,
-    "question": "HTML là viết tắt của gì?",
-    "options": [
-      "HyperText Markup Language",
-      "HighText Machine Language",
-      "Hyperlink Text Language",
-      "Home Tool Markup Language"
+      "Tư liệu sản xuất",
+      "Chính quyền",
+      "Thị trường tài chính",
+      "Các tổ chức quốc tế"
     ],
     "answer": 0
   },
   {
-    "id": 5,
-    "question": "CSS dùng để làm gì?",
+    "id": 3,
+    "question": "Giai cấp thực sự tồn tại khi xuất hiện mối quan hệ quyền lực nào?",
     "options": [
-      "Xử lý logic",
-      "Thiết kế giao diện",
-      "Kết nối server",
-      "Quản lý database"
+      "Hợp tác cùng có lợi",
+      "Cạnh tranh công bằng",
+      "Chiếm đoạt lao động của nhóm khác",
+      "Trao đổi hàng hóa ngang giá"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "question": "Theo lý thuyết này, cấu trúc xã hội dựa trên động lực duy nhất nào?",
+    "options": [
+      "Mối quan hệ giữa cung và cầu",
+      "Mối quan hệ giữa nhà nước và công dân",
+      "Mối quan hệ giữa kẻ bóc lột và người bị bóc lột",
+      "Mối quan hệ giữa con người và thiên nhiên"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 5,
+    "question": "Trong các bước xác định giai cấp, yếu tố nào được coi là quan trọng nhất (bước 2)?",
+    "options": [
+      "Vai trò trong tổ chức lao động",
+      "Mối quan hệ đối với tư liệu sản xuất",
+      "Phần của cải được hưởng",
+      "Địa vị trong xã hội"
     ],
     "answer": 1
   },
   {
     "id": 6,
-    "question": "Ngôn ngữ nào chạy trực tiếp trên trình duyệt?",
-    "options": ["Java", "C#", "Python", "JavaScript"],
-    "answer": 3
-  },
-  {
-    "id": 7,
-    "question": "Lệnh nào dùng để cài package trong npm?",
+    "question": "Theo tài liệu, trong phần lớn lịch sử loài người, xã hội có đặc điểm gì?",
     "options": [
-      "npm start",
-      "npm install",
-      "npm build",
-      "npm run dev"
+      "Luôn phân chia giai cấp sâu sắc",
+      "Hoàn toàn không có giai cấp",
+      "Chỉ có giai cấp thống trị",
+      "Luôn tồn tại chế độ nô lệ"
     ],
     "answer": 1
   },
   {
+    "id": 7,
+    "question": "Yếu tố nào xuất hiện nhờ công cụ tốt hơn và là 'quân cờ domino' đầu tiên dẫn đến sự ra đời của giai cấp?",
+    "options": [
+      "Sản phẩm thặng dư",
+      "Tiền tệ",
+      "Luật pháp",
+      "Tôn giáo"
+    ],
+    "answer": 0
+  },
+  {
     "id": 8,
-    "question": "Trong Git, lệnh nào dùng để tải code về máy?",
-    "options": ["git push", "git pull", "git commit", "git branch"],
+    "question": "Sự xuất hiện của sản phẩm thặng dư đã làm nảy sinh khái niệm gì lần đầu tiên?",
+    "options": [
+      "Thương mại quốc tế",
+      "Chế độ tư hữu (Private property)",
+      "Dân chủ",
+      "Công nghiệp hóa"
+    ],
     "answer": 1
   },
   {
     "id": 9,
-    "question": "LocalStorage dùng để làm gì?",
+    "question": "Khi có chế độ tư hữu về tư liệu sản xuất, xã hội tất yếu chia thành hai nhóm nào?",
     "options": [
-      "Lưu dữ liệu tạm trên server",
-      "Lưu dữ liệu trên trình duyệt",
-      "Lưu file trên máy",
-      "Lưu session trên backend"
+      "Người già và người trẻ",
+      "Nam và nữ",
+      "Người sở hữu và người không sở hữu",
+      "Người thành thị và người nông thôn"
     ],
-    "answer": 1
-  },
-  {
-    "id": 10,
-    "question": "HTTP status code 404 có nghĩa là gì?",
-    "options": [
-      "Thành công",
-      "Không tìm thấy",
-      "Lỗi server",
-      "Không có quyền truy cập"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 11,
-    "question": "Đâu là cơ sở dữ liệu?",
-    "options": ["React", "NodeJS", "MySQL", "HTML"],
     "answer": 2
   },
   {
-    "id": 12,
-    "question": "Trong lập trình, bug là gì?",
+    "id": 10,
+    "question": "Trong hình ảnh ẩn dụ về cái cây, 'thân cây' (nguyên nhân trực tiếp) của giai cấp là gì?",
     "options": [
-      "Tính năng mới",
-      "Lỗi chương trình",
-      "Phiên bản nâng cấp",
-      "Công cụ hỗ trợ"
+      "Công nghệ lạc hậu",
+      "Sự tham lam",
+      "Chế độ tư hữu",
+      "Chiến tranh"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 11,
+    "question": "Cũng trong hình ảnh cái cây, 'bộ rễ' (nguyên nhân sâu xa) của giai cấp là do đâu?",
+    "options": [
+      "Công nghệ/sản xuất chưa đủ phát triển để vượt qua tư hữu",
+      "Bản chất con người là ích kỷ",
+      "Sự thiếu hụt tài nguyên thiên nhiên",
+      "Sự gia tăng dân số quá nhanh"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "question": "Các giai cấp đóng vai trò là 'người chơi chính' trong hệ thống kinh tế hiện tại được gọi là gì?",
+    "options": [
+      "Giai cấp trung gian",
+      "Giai cấp không cơ bản",
+      "Giai cấp cơ bản",
+      "Giai cấp lưu vong"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 13,
+    "question": "Nhóm nào được coi là tàn dư của hệ thống cũ hoặc hạt giống của hệ thống mới?",
+    "options": [
+      "Giai cấp cơ bản",
+      "Giai cấp không cơ bản",
+      "Tầng lớp trung gian",
+      "Giai cấp thống trị"
     ],
     "answer": 1
   },
   {
-    "id": 13,
-    "question": "API là viết tắt của gì?",
-    "options": [
-      "Application Programming Interface",
-      "Advanced Program Internet",
-      "Applied Protocol Interface",
-      "Application Process Information"
-    ],
-    "answer": 0
-  },
-  {
     "id": 14,
-    "question": "Framework frontend phổ biến hiện nay là gì?",
-    "options": ["React", "Laravel", "Spring", "Django"],
-    "answer": 0
+    "question": "Trí thức hoặc chủ doanh nghiệp nhỏ thường thuộc nhóm nào trong cấu trúc xã hội?",
+    "options": [
+      "Giai cấp thống trị",
+      "Giai cấp bị trị",
+      "Giai cấp cơ bản",
+      "Tầng lớp trung gian (Intermediate strata)"
+    ],
+    "answer": 3
   },
   {
     "id": 15,
-    "question": "Đâu là hệ điều hành?",
-    "options": ["Chrome", "Windows", "Google", "React"],
+    "question": "Tại cốt lõi của bất kỳ cỗ máy kinh tế xã hội nào, luôn tồn tại sự phân chia thành hai nhóm đối lập là gì?",
+    "options": [
+      "Giai cấp giàu và Giai cấp nghèo",
+      "Giai cấp thống trị và Giai cấp bị trị",
+      "Chính phủ và Doanh nghiệp",
+      "Công nhân và Nông dân"
+    ],
     "answer": 1
   },
   {
     "id": 16,
-    "question": "GitHub dùng để làm gì?",
+    "question": "Theo quan điểm này, lịch sử được thúc đẩy bởi điều gì?",
     "options": [
-      "Lưu trữ mã nguồn",
-      "Thiết kế giao diện",
-      "Chạy server",
-      "Quản lý database"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 17,
-    "question": "Trong JavaScript, kiểu dữ liệu nào là boolean?",
-    "options": ["true/false", "1/0", "yes/no", "on/off"],
-    "answer": 0
-  },
-  {
-    "id": 18,
-    "question": "Lệnh nào để build project React?",
-    "options": [
-      "npm start",
-      "npm install",
-      "npm run build",
-      "npm test"
+      "Sự phát triển của nghệ thuật",
+      "Sự hòa hợp giữa các dân tộc",
+      "Sự căng thẳng/xung đột giữa giai cấp thống trị và bị trị",
+      "Sự can thiệp của thần linh"
     ],
     "answer": 2
   },
   {
-    "id": 19,
-    "question": "Frontend là gì?",
+    "id": 17,
+    "question": "Giai cấp xã hội về cơ bản là một phạm trù thuộc lĩnh vực nào?",
     "options": [
-      "Phần giao diện người dùng",
-      "Phần xử lý server",
-      "Cơ sở dữ liệu",
-      "API backend"
+      "Văn hóa",
+      "Giáo dục",
+      "Kinh tế",
+      "Tâm lý học"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 18,
+    "question": "Giai cấp KHÔNG được định nghĩa chủ yếu bởi yếu tố nào sau đây?",
+    "options": [
+      "Địa vị trong hệ thống sản xuất",
+      "Văn hóa, địa vị hay giáo dục",
+      "Quan hệ sở hữu tư liệu sản xuất",
+      "Vai trò trong tổ chức lao động"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 19,
+    "question": "Chuỗi sự kiện hình thành giai cấp bắt đầu từ đâu?",
+    "options": [
+      "Công cụ tốt hơn tạo ra thặng dư",
+      "Con người trở nên tham lam hơn",
+      "Sự hình thành nhà nước",
+      "Sự phân chia lao động theo giới tính"
     ],
     "answer": 0
   },
   {
     "id": 20,
-    "question": "Netlify thường dùng để làm gì?",
+    "question": "Câu hỏi lớn cuối cùng mà lý thuyết đặt ra là: Để xóa bỏ giai cấp, cần xóa bỏ điều gì?",
     "options": [
-      "Deploy frontend",
-      "Quản lý database",
-      "Viết backend",
-      "Thiết kế UI"
+      "Sự khác biệt về văn hóa",
+      "Tiền tệ",
+      "Chế độ tư hữu (Private ownership)",
+      "Chính phủ"
     ],
-    "answer": 0
+    "answer": 2
   }
 ]
