@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Theo khung lý thuyết này, cơ sở nền tảng để định nghĩa giai cấp xã hội là gì?",
+    "question": "Cơ sở nền tảng để định nghĩa giai cấp xã hội là gì?",
     "options": [
       "Mức thu nhập hàng tháng",
       "Vị trí trong hệ thống sản xuất xã hội",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "question": "Theo lý thuyết này, cấu trúc xã hội dựa trên động lực duy nhất nào?",
+    "question": "Cấu trúc xã hội dựa trên động lực duy nhất nào?",
     "options": [
       "Mối quan hệ giữa cung và cầu",
       "Mối quan hệ giữa nhà nước và công dân",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "question": "Trong các bước xác định giai cấp, yếu tố nào được coi là quan trọng nhất (bước 2)?",
+    "question": "Trong các bước xác định giai cấp, yếu tố nào được coi là quan trọng nhất ?",
     "options": [
       "Vai trò trong tổ chức lao động",
       "Mối quan hệ đối với tư liệu sản xuất",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "question": "Theo tài liệu, trong phần lớn lịch sử loài người, xã hội có đặc điểm gì?",
+    "question": "Trong phần lớn lịch sử loài người, xã hội có đặc điểm gì?",
     "options": [
       "Luôn phân chia giai cấp sâu sắc",
       "Hoàn toàn không có giai cấp",
@@ -81,7 +81,7 @@
     "question": "Sự xuất hiện của sản phẩm thặng dư đã làm nảy sinh khái niệm gì lần đầu tiên?",
     "options": [
       "Thương mại quốc tế",
-      "Chế độ tư hữu (Private property)",
+      "Chế độ tư hữu ",
       "Dân chủ",
       "Công nghiệp hóa"
     ],
@@ -149,7 +149,7 @@
       "Giai cấp thống trị",
       "Giai cấp bị trị",
       "Giai cấp cơ bản",
-      "Tầng lớp trung gian (Intermediate strata)"
+      "Tầng lớp trung gian "
     ],
     "answer": 3
   },
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "question": "Theo quan điểm này, lịch sử được thúc đẩy bởi điều gì?",
+    "question": "Lịch sử được thúc đẩy bởi điều gì?",
     "options": [
       "Sự phát triển của nghệ thuật",
       "Sự hòa hợp giữa các dân tộc",
@@ -214,7 +214,7 @@
     "options": [
       "Sự khác biệt về văn hóa",
       "Tiền tệ",
-      "Chế độ tư hữu (Private ownership)",
+      "Chế độ tư hữu",
       "Chính phủ"
     ],
     "answer": 2
