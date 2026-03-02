@@ -1,222 +1,222 @@
 [
   {
     "id": 1,
-    "question": "Cơ sở nền tảng để định nghĩa giai cấp xã hội là gì?",
+    "question": "Công thức vận động chung của tư bản là gì?",
     "options": [
-      "Mức thu nhập hàng tháng",
-      "Vị trí trong hệ thống sản xuất xã hội",
-      "Trường học và nền tảng giáo dục",
-      "Văn hóa và lối sống"
+      "H - T - H",
+      "T - H - T'",
+      "H - H - T",
+      "T - T - H"
     ],
     "answer": 1
   },
   {
     "id": 2,
-    "question": "Một trong bốn trụ cột của định nghĩa giai cấp là mối quan hệ đối với cái gì?",
+    "question": "Trong công thức T - H - T', số tiền dôi ra (ΔT) được gọi là gì?",
     "options": [
-      "Tư liệu sản xuất",
-      "Chính quyền",
-      "Thị trường tài chính",
-      "Các tổ chức quốc tế"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 3,
-    "question": "Giai cấp thực sự tồn tại khi xuất hiện mối quan hệ quyền lực nào?",
-    "options": [
-      "Hợp tác cùng có lợi",
-      "Cạnh tranh công bằng",
-      "Chiếm đoạt lao động của nhóm khác",
-      "Trao đổi hàng hóa ngang giá"
+      "Vốn đầu tư",
+      "Lợi nhuận gộp",
+      "Giá trị thặng dư",
+      "Tiền công"
     ],
     "answer": 2
   },
   {
-    "id": 4,
-    "question": "Cấu trúc xã hội dựa trên động lực duy nhất nào?",
+    "id": 3,
+    "question": "Điều kiện nào sau đây biến sức lao động trở thành hàng hóa?",
     "options": [
-      "Mối quan hệ giữa cung và cầu",
-      "Mối quan hệ giữa nhà nước và công dân",
-      "Mối quan hệ giữa kẻ bóc lột và người bị bóc lột",
-      "Mối quan hệ giữa con người và thiên nhiên"
+      "Người lao động được tự do về thân thể và không có tư liệu sản xuất",
+      "Người lao động có trình độ chuyên môn cao",
+      "Người lao động có máy móc hiện đại",
+      "Thị trường có nhu cầu mua sản phẩm"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 4,
+    "question": "Giá trị của hàng hóa sức lao động được đo lường bằng yếu tố nào?",
+    "options": [
+      "Sự hài lòng của nhà tư bản",
+      "Giá bán sản phẩm trên thị trường",
+      "Thời gian lao động xã hội cần thiết để tái sản xuất sức lao động",
+      "Khối lượng máy móc công nhân sử dụng"
     ],
     "answer": 2
   },
   {
     "id": 5,
-    "question": "Trong các bước xác định giai cấp, yếu tố nào được coi là quan trọng nhất ?",
+    "question": "Đặc tính đặc biệt nhất của giá trị sử dụng hàng hóa sức lao động là gì?",
     "options": [
-      "Vai trò trong tổ chức lao động",
-      "Mối quan hệ đối với tư liệu sản xuất",
-      "Phần của cải được hưởng",
-      "Địa vị trong xã hội"
+      "Càng dùng càng bị hao mòn",
+      "Có thể chuyển toàn bộ giá trị vào sản phẩm",
+      "Nguồn gốc sinh ra giá trị mới lớn hơn giá trị bản thân nó",
+      "Giá trị không thay đổi trong quá trình sản xuất"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 6,
-    "question": "Trong phần lớn lịch sử loài người, xã hội có đặc điểm gì?",
+    "question": "Giá trị thặng dư (m) theo định nghĩa của Mác là gì?",
     "options": [
-      "Luôn phân chia giai cấp sâu sắc",
-      "Hoàn toàn không có giai cấp",
-      "Chỉ có giai cấp thống trị",
-      "Luôn tồn tại chế độ nô lệ"
+      "Phần tiền trả cho việc sử dụng máy móc",
+      "Bộ phận dôi ra ngoài giá trị sức lao động do công nhân tạo ra và bị chiếm đoạt",
+      "Tổng số tiền nhà tư bản thu được sau khi bán hàng",
+      "Khoản tiền thưởng cho công nhân khi tăng năng suất"
     ],
     "answer": 1
   },
   {
     "id": 7,
-    "question": "Yếu tố nào xuất hiện nhờ công cụ tốt hơn và là 'quân cờ domino' đầu tiên dẫn đến sự ra đời của giai cấp?",
+    "question": "Bộ phận tư bản nào chuyển nguyên giá trị cũ vào sản phẩm và không thay đổi về lượng giá trị?",
     "options": [
-      "Sản phẩm thặng dư",
-      "Tiền tệ",
-      "Luật pháp",
-      "Tôn giáo"
+      "Tư bản khả biến (v)",
+      "Tư bản bất biến (c)",
+      "Tư bản lưu động",
+      "Tiền lương"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 8,
-    "question": "Sự xuất hiện của sản phẩm thặng dư đã làm nảy sinh khái niệm gì lần đầu tiên?",
+    "question": "Vì sao bộ phận tiền lương được gọi là tư bản khả biến (v)?",
     "options": [
-      "Thương mại quốc tế",
-      "Chế độ tư hữu ",
-      "Dân chủ",
-      "Công nghiệp hóa"
+      "Vì nó biến mất sau quá trình sản xuất",
+      "Vì nó có thể thay đổi tùy theo ý muốn nhà tư bản",
+      "Vì thông qua lao động, nó tạo ra giá trị mới lớn hơn giá trị của bản thân nó",
+      "Vì nó được dùng để mua nguyên vật liệu"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "id": 9,
-    "question": "Khi có chế độ tư hữu về tư liệu sản xuất, xã hội tất yếu chia thành hai nhóm nào?",
+    "question": "Công thức tính giá trị hàng hóa (G) là gì?",
     "options": [
-      "Người già và người trẻ",
-      "Nam và nữ",
-      "Người sở hữu và người không sở hữu",
-      "Người thành thị và người nông thôn"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 10,
-    "question": "Trong hình ảnh ẩn dụ về cái cây, 'thân cây' (nguyên nhân trực tiếp) của giai cấp là gì?",
-    "options": [
-      "Công nghệ lạc hậu",
-      "Sự tham lam",
-      "Chế độ tư hữu",
-      "Chiến tranh"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 11,
-    "question": "Cũng trong hình ảnh cái cây, 'bộ rễ' (nguyên nhân sâu xa) của giai cấp là do đâu?",
-    "options": [
-      "Công nghệ/sản xuất chưa đủ phát triển để vượt qua tư hữu",
-      "Bản chất con người là ích kỷ",
-      "Sự thiếu hụt tài nguyên thiên nhiên",
-      "Sự gia tăng dân số quá nhanh"
-    ],
-    "answer": 0
-  },
-  {
-    "id": 12,
-    "question": "Các giai cấp đóng vai trò là 'người chơi chính' trong hệ thống kinh tế hiện tại được gọi là gì?",
-    "options": [
-      "Giai cấp trung gian",
-      "Giai cấp không cơ bản",
-      "Giai cấp cơ bản",
-      "Giai cấp lưu vong"
-    ],
-    "answer": 2
-  },
-  {
-    "id": 13,
-    "question": "Nhóm nào được coi là tàn dư của hệ thống cũ hoặc hạt giống của hệ thống mới?",
-    "options": [
-      "Giai cấp cơ bản",
-      "Giai cấp không cơ bản",
-      "Tầng lớp trung gian",
-      "Giai cấp thống trị"
-    ],
-    "answer": 1
-  },
-  {
-    "id": 14,
-    "question": "Trí thức hoặc chủ doanh nghiệp nhỏ thường thuộc nhóm nào trong cấu trúc xã hội?",
-    "options": [
-      "Giai cấp thống trị",
-      "Giai cấp bị trị",
-      "Giai cấp cơ bản",
-      "Tầng lớp trung gian "
+      "G = c + v",
+      "G = c + m",
+      "G = v + m",
+      "G = c + v + m"
     ],
     "answer": 3
   },
   {
-    "id": 15,
-    "question": "Tại cốt lõi của bất kỳ cỗ máy kinh tế xã hội nào, luôn tồn tại sự phân chia thành hai nhóm đối lập là gì?",
+    "id": 10,
+    "question": "Chỉ số nào dùng để phản ánh trình độ bóc lột của nhà tư bản đối với công nhân?",
     "options": [
-      "Giai cấp giàu và Giai cấp nghèo",
-      "Giai cấp thống trị và Giai cấp bị trị",
-      "Chính phủ và Doanh nghiệp",
-      "Công nhân và Nông dân"
+      "Tỷ suất lợi nhuận (p')",
+      "Tỷ suất giá trị thặng dư (m')",
+      "Khối lượng giá trị thặng dư (M)",
+      "Tốc độ chu chuyển tư bản"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "question": "Phương pháp sản xuất giá trị thặng dư tuyệt đối dựa trên việc làm gì?",
+    "options": [
+      "Cải tiến kỹ thuật máy móc",
+      "Tăng năng suất lao động xã hội",
+      "Kéo dài ngày lao động hoặc tăng cường độ lao động",
+      "Rút ngắn thời gian lao động tất yếu"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 12,
+    "question": "Giá trị thặng dư tương đối có được nhờ vào yếu tố nào?",
+    "options": [
+      "Tăng năng suất lao động xã hội làm giảm giá trị sức lao động",
+      "Ép công nhân đi làm sớm về muộn",
+      "Cắt giảm tiền phúc lợi của công nhân",
+      "Mở rộng quy mô nhà xưởng"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 13,
+    "question": "Giá trị thặng dư siêu ngạch có đặc điểm gì?",
+    "options": [
+      "Là mục tiêu phấn đấu của mọi nhà tư bản và có tính chất tạm thời",
+      "Chỉ xuất hiện ở các doanh nghiệp lạc hậu",
+      "Tồn tại vĩnh viễn trong một doanh nghiệp duy nhất",
+      "Do nhà nước cấp cho doanh nghiệp"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "question": "Thực trạng tăng ca liên tục tại các KCN Việt Nam hiện nay là biểu hiện của phương pháp sản xuất nào?",
+    "options": [
+      "Sản xuất giá trị thặng dư tương đối",
+      "Sản xuất giá trị thặng dư siêu ngạch",
+      "Sản xuất giá trị thặng dư tuyệt đối",
+      "Sản xuất giá trị sử dụng"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 15,
+    "question": "Tiền công dưới chủ nghĩa tư bản che đậy điều gì?",
+    "options": [
+      "Sự lười biếng của công nhân",
+      "Bản chất bóc lột (lao động không công)",
+      "Sự phát triển của công nghệ",
+      "Lợi ích chung của xã hội"
     ],
     "answer": 1
   },
   {
     "id": 16,
-    "question": "Lịch sử được thúc đẩy bởi điều gì?",
+    "question": "Các doanh nghiệp FDI đầu tư máy móc hiện đại tại Việt Nam nhằm mục đích gì dưới góc độ kinh tế chính trị?",
     "options": [
-      "Sự phát triển của nghệ thuật",
-      "Sự hòa hợp giữa các dân tộc",
-      "Sự căng thẳng/xung đột giữa giai cấp thống trị và bị trị",
-      "Sự can thiệp của thần linh"
+      "Làm từ thiện cho người lao động",
+      "Chỉ để bảo vệ môi trường",
+      "Tăng năng suất để thu giá trị thặng dư tương đối và siêu ngạch",
+      "Giảm bớt quyền lực của công đoàn"
     ],
     "answer": 2
   },
   {
     "id": 17,
-    "question": "Giai cấp xã hội về cơ bản là một phạm trù thuộc lĩnh vực nào?",
+    "question": "Tư bản cố định bao gồm những yếu tố nào?",
     "options": [
-      "Văn hóa",
-      "Giáo dục",
-      "Kinh tế",
-      "Tâm lý học"
+      "Nguyên liệu, nhiên liệu",
+      "Tiền lương công nhân",
+      "Máy móc, thiết bị, nhà xưởng",
+      "Hàng hóa đang bày bán"
     ],
     "answer": 2
   },
   {
     "id": 18,
-    "question": "Giai cấp KHÔNG được định nghĩa chủ yếu bởi yếu tố nào sau đây?",
+    "question": "Theo thực tế tại Việt Nam, tiền lương công nhân tại các KCN thường đáp ứng mức độ nào?",
     "options": [
-      "Địa vị trong hệ thống sản xuất",
-      "Văn hóa, địa vị hay giáo dục",
-      "Quan hệ sở hữu tư liệu sản xuất",
-      "Vai trò trong tổ chức lao động"
+      "Dư thừa để đầu tư chứng khoán",
+      "Vừa đủ trang trải mức sống tối thiểu để tái sản xuất sức lao động",
+      "Thấp hơn rất nhiều so với quy định quốc tế",
+      "Cao hơn mức lương của các nước phát triển"
     ],
     "answer": 1
   },
   {
     "id": 19,
-    "question": "Chuỗi sự kiện hình thành giai cấp bắt đầu từ đâu?",
+    "question": "Mối quan hệ Vốn - Lao động tại Việt Nam được Nhà nước điều tiết thông qua công cụ nào?",
     "options": [
-      "Công cụ tốt hơn tạo ra thặng dư",
-      "Con người trở nên tham lam hơn",
-      "Sự hình thành nhà nước",
-      "Sự phân chia lao động theo giới tính"
+      "Luật Lao động và tổ chức Công đoàn",
+      "Hệ thống chứng khoán",
+      "Các tổ chức phi chính phủ nước ngoài",
+      "Việc phân phát lương thực miễn phí"
     ],
     "answer": 0
   },
   {
     "id": 20,
-    "question": "Câu hỏi lớn cuối cùng mà lý thuyết đặt ra là: Để xóa bỏ giai cấp, cần xóa bỏ điều gì?",
+    "question": "Khối lượng giá trị thặng dư (M) phản ánh điều gì?",
     "options": [
-      "Sự khác biệt về văn hóa",
-      "Tiền tệ",
-      "Chế độ tư hữu",
-      "Chính phủ"
+      "Trình độ bóc lột",
+      "Quy mô bóc lột của nhà tư bản",
+      "Chất lượng sản phẩm",
+      "Tốc độ máy móc chạy"
     ],
-    "answer": 2
+    "answer": 1
   }
 ]
