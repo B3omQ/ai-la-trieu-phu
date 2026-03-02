@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Container chính chứa danh sách */
+.records-list {
+  max-height: 60vh; /* Giới hạn chiều cao bằng 60% chiều cao màn hình */
+  overflow-y: auto; /* Hiện thanh cuộn khi nội dung tràn ra */
+  margin: 20px 0;
+  padding-right: 10px; /* Tránh nội dung đè lên thanh cuộn */
+  
+  /* Tùy chỉnh thanh cuộn cho đẹp hơn (Chrome, Safari, Edge) */
+}
+
+.records-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.records-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.records-list::-webkit-scrollbar-thumb {
+  background: #f1c40f; /* Màu vàng giống tone màu chữ của bạn */
+  border-radius: 10px;
+}
+
+.records-list::-webkit-scrollbar-thumb:hover {
+  background: #d4ac0d;
+}
+
+/* Đảm bảo mỗi dòng không bị dính sát nhau */
+.record-row {
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 0.9rem;
+}

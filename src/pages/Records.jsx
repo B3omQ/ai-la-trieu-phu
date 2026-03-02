@@ -1,6 +1,7 @@
 import { listenRecords } from "../utils/record";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import "../App.css";
 
 export default function Records() {
   const [data, setData] = useState([]);
@@ -38,16 +39,16 @@ export default function Records() {
 
       {data.length === 0 && <p>Chưa có dữ liệu</p>}
 
-      {data.map((r, i) => (
-        <div key={r.id} className="record-row">
-          <b>#{i + 1}</b>{" "}
-          {r.name} –{" "}
-          {Number(r.money).toLocaleString()} VND –{" "}
-          {r.date ? formatDate(r.date) : "N/A"}
-        </div>
-      ))}
+      <div className="records-list">
+        {data.map((r, i) => (
+          <div key={r.id || i} className="record-row">
+            <b>#{i + 1}</b> {r.name} – {Number(r.money).toLocaleString()} VND –{" "}
+            {r.date ? formatDate(r.date) : "N/A"}
+          </div>
+        ))}
+      </div>
 
-      <button className="answer" onClick={() => nav("/")}>
+      <button className="answer" onClick={() => nav("/")} style={{ marginTop: '20px' }}>
         Quay lại
       </button>
     </div>
