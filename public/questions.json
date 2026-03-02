@@ -1,222 +1,222 @@
 [
   {
     "id": 1,
-    "question": "Công thức vận động chung của tư bản là gì?",
+    "question": "Điểm mấu chốt tạo nên sự mâu thuẫn trong công thức chung của tư bản ($T - H - T'$) là gì?",
     "options": [
-      "H - T - H",
-      "T - H - T'",
-      "H - H - T",
-      "T - T - H"
+      "Sự chênh lệch về giá trị sử dụng giữa hai loại hàng hóa",
+      "Giá trị thặng dư không thể sinh ra từ lưu thông nhưng lại thể hiện qua lưu thông",
+      "Việc nhà tư bản phải bỏ ra một lượng tiền mặt lớn hơn giá trị thực của hàng hóa",
+      "Sự thay đổi về mặt chất của tiền khi chuyển từ tiêu dùng sang đầu tư sản xuất"
     ],
     "answer": 1
   },
   {
     "id": 2,
-    "question": "Trong công thức T - H - T', số tiền dôi ra (ΔT) được gọi là gì?",
+    "question": "Điều kiện 'người lao động tự do về thân thể' trong lý luận của Mác có ý nghĩa quyết định như thế nào?",
     "options": [
-      "Vốn đầu tư",
-      "Lợi nhuận gộp",
-      "Giá trị thặng dư",
-      "Tiền công"
+      "Cho phép người lao động sở hữu một phần tư liệu sản xuất của nhà máy",
+      "Đảm bảo người lao động có quyền thương lượng mức lương cao hơn giá trị sức lao động",
+      "Biến sức lao động thành một món hàng có thể trao đổi tự nguyện trên thị trường",
+      "Giúp người lao động thoát khỏi sự bóc lột của các quan hệ sản xuất phong kiến"
     ],
     "answer": 2
   },
   {
     "id": 3,
-    "question": "Điều kiện nào sau đây biến sức lao động trở thành hàng hóa?",
+    "question": "Yếu tố nào sau đây thuộc về giá trị của hàng hóa sức lao động nhưng lại mang tính biến đổi theo lịch sử?",
     "options": [
-      "Người lao động được tự do về thân thể và không có tư liệu sản xuất",
-      "Người lao động có trình độ chuyên môn cao",
-      "Người lao động có máy móc hiện đại",
-      "Thị trường có nhu cầu mua sản phẩm"
+      "Chi phí tối thiểu để duy trì sự sống của bản thân người công nhân",
+      "Các nhu cầu về văn hóa, tinh thần và tập quán sinh hoạt của từng quốc gia",
+      "Số lượng tư liệu sản xuất mà người công nhân sử dụng trong một ca làm việc",
+      "Tỷ lệ hao mòn máy móc mà người công nhân phải bù đắp trong quá trình làm việc"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 4,
-    "question": "Giá trị của hàng hóa sức lao động được đo lường bằng yếu tố nào?",
+    "question": "Vì sao Mác khẳng định chỉ có Tư bản khả biến (v) mới là nguồn gốc trực tiếp tạo ra giá trị thặng dư?",
     "options": [
-      "Sự hài lòng của nhà tư bản",
-      "Giá bán sản phẩm trên thị trường",
-      "Thời gian lao động xã hội cần thiết để tái sản xuất sức lao động",
-      "Khối lượng máy móc công nhân sử dụng"
+      "Vì giá trị của nó biến đổi qua các chu kỳ kinh tế và sự lạm phát của tiền tệ",
+      "Vì nó được dùng để mua sức lao động - loại hàng hóa có khả năng tạo ra giá trị mới",
+      "Vì nhà tư bản có thể cắt giảm tiền lương để trực tiếp gia tăng lợi nhuận thu về",
+      "Vì nó đại diện cho các yếu tố đầu vào không tham gia vào quá trình chuyển hóa giá trị"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 5,
-    "question": "Đặc tính đặc biệt nhất của giá trị sử dụng hàng hóa sức lao động là gì?",
+    "question": "Trong công thức $G = c + v + m$, bộ phận 'c' (Tư bản bất biến) đóng vai trò gì trong việc hình thành giá trị hàng hóa?",
     "options": [
-      "Càng dùng càng bị hao mòn",
-      "Có thể chuyển toàn bộ giá trị vào sản phẩm",
-      "Nguồn gốc sinh ra giá trị mới lớn hơn giá trị bản thân nó",
-      "Giá trị không thay đổi trong quá trình sản xuất"
+      "Tạo ra giá trị mới lớn hơn thông qua việc áp dụng kỹ thuật tiên tiến",
+      "Chuyển nguyên vẹn giá trị cũ vào sản phẩm thông qua lao động cụ thể",
+      "Là căn cứ để nhà tư bản tính toán tỷ suất giá trị thặng dư chính xác nhất",
+      "Tăng thêm giá trị cho hàng hóa nhờ vào sự khan hiếm của nguyên vật liệu"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 6,
-    "question": "Giá trị thặng dư (m) theo định nghĩa của Mác là gì?",
+    "question": "Sự khác biệt bản chất giữa Tỷ suất giá trị thặng dư ($m'$) và Khối lượng giá trị thặng dư ($M$) là gì?",
     "options": [
-      "Phần tiền trả cho việc sử dụng máy móc",
-      "Bộ phận dôi ra ngoài giá trị sức lao động do công nhân tạo ra và bị chiếm đoạt",
-      "Tổng số tiền nhà tư bản thu được sau khi bán hàng",
-      "Khoản tiền thưởng cho công nhân khi tăng năng suất"
+      "m' phản ánh hiệu quả kinh tế, còn M phản ánh tốc độ quay vòng của vốn",
+      "m' phản ánh trình độ bóc lột, còn M phản ánh quy mô của sự bóc lột đó",
+      "m' phụ thuộc vào máy móc, còn M phụ thuộc hoàn toàn vào kỹ năng công nhân",
+      "m' tính trên tổng vốn đầu tư, còn M chỉ tính trên phần vốn mua nguyên liệu"
     ],
     "answer": 1
   },
   {
     "id": 7,
-    "question": "Bộ phận tư bản nào chuyển nguyên giá trị cũ vào sản phẩm và không thay đổi về lượng giá trị?",
+    "question": "Giới hạn vật chất của phương pháp sản xuất giá trị thặng dư tuyệt đối là gì?",
     "options": [
-      "Tư bản khả biến (v)",
-      "Tư bản bất biến (c)",
-      "Tư bản lưu động",
-      "Tiền lương"
+      "Năng suất lao động của máy móc không thể vượt quá công suất thiết kế",
+      "Độ dài ngày lao động không thể vượt quá 24h và giới hạn thể chất của con người",
+      "Sự phản kháng của công đoàn về mức lương tối thiểu trong khu công nghiệp",
+      "Sự sụt giảm giá trị của hàng hóa trên thị trường do cung vượt quá cầu"
     ],
     "answer": 1
   },
   {
     "id": 8,
-    "question": "Vì sao bộ phận tiền lương được gọi là tư bản khả biến (v)?",
+    "question": "Tại sao việc tăng năng suất lao động xã hội lại dẫn đến sản xuất giá trị thặng dư tương đối?",
     "options": [
-      "Vì nó biến mất sau quá trình sản xuất",
-      "Vì nó có thể thay đổi tùy theo ý muốn nhà tư bản",
-      "Vì thông qua lao động, nó tạo ra giá trị mới lớn hơn giá trị của bản thân nó",
-      "Vì nó được dùng để mua nguyên vật liệu"
+      "Vì nó làm giảm giá trị các tư liệu sinh hoạt, từ đó hạ thấp giá trị sức lao động",
+      "Vì nó cho phép nhà tư bản kéo dài thời gian làm việc mà không cần trả thêm lương",
+      "Vì nó giúp doanh nghiệp chiếm lĩnh thị trường và bán hàng với giá cao hơn thực tế",
+      "Vì nó làm tăng giá trị sử dụng của hàng hóa trong khi giữ nguyên thời gian lao động"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "id": 9,
-    "question": "Công thức tính giá trị hàng hóa (G) là gì?",
+    "question": "Giá trị thặng dư siêu ngạch được coi là 'hình thức biến tướng' của giá trị thặng dư tương đối vì:",
     "options": [
-      "G = c + v",
-      "G = c + m",
-      "G = v + m",
-      "G = c + v + m"
+      "Cả hai đều dựa trên việc kéo dài thời gian lao động thặng dư của công nhân",
+      "Cả hai đều dựa trên cơ sở tăng năng suất lao động để rút ngắn thời gian tất yếu",
+      "Cả hai đều chỉ xuất hiện ở những xí nghiệp có trình độ công nghệ lạc hậu hơn",
+      "Cả hai đều biến mất khi tất cả các doanh nghiệp cùng áp dụng công nghệ mới"
     ],
-    "answer": 3
+    "answer": 1
   },
   {
     "id": 10,
-    "question": "Chỉ số nào dùng để phản ánh trình độ bóc lột của nhà tư bản đối với công nhân?",
+    "question": "Bản chất của tiền công trong nền kinh tế tư bản chủ nghĩa thường bị hiểu lầm là:",
     "options": [
-      "Tỷ suất lợi nhuận (p')",
-      "Tỷ suất giá trị thặng dư (m')",
-      "Khối lượng giá trị thặng dư (M)",
-      "Tốc độ chu chuyển tư bản"
+      "Giá cả của hàng hóa sức lao động được thỏa thuận trên thị trường",
+      "Giá trả cho toàn bộ kết quả lao động mà người công nhân đã thực hiện",
+      "Khoản chi phí mà nhà tư bản bỏ ra để duy trì tư bản khả biến",
+      "Phần giá trị mới được tạo ra trong quá trình sản xuất hàng hóa"
     ],
     "answer": 1
   },
   {
     "id": 11,
-    "question": "Phương pháp sản xuất giá trị thặng dư tuyệt đối dựa trên việc làm gì?",
+    "question": "Hiện tượng 'ép KPI' hoặc tăng tốc độ dây chuyền tại các KCN Việt Nam thực chất là hình thức:",
     "options": [
-      "Cải tiến kỹ thuật máy móc",
-      "Tăng năng suất lao động xã hội",
-      "Kéo dài ngày lao động hoặc tăng cường độ lao động",
-      "Rút ngắn thời gian lao động tất yếu"
+      "Sản xuất giá trị thặng dư tương đối bằng cách hiện đại hóa máy móc",
+      "Sản xuất giá trị thặng dư tuyệt đối bằng cách tăng cường độ lao động",
+      "Sản xuất giá trị thặng dư siêu ngạch bằng cách giảm chi phí vận hành",
+      "Gia tăng giá trị sử dụng của hàng hóa thông qua kỷ luật lao động"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 12,
-    "question": "Giá trị thặng dư tương đối có được nhờ vào yếu tố nào?",
+    "question": "Tư bản cố định và tư bản lưu động được phân chia dựa trên tiêu chí nào?",
     "options": [
-      "Tăng năng suất lao động xã hội làm giảm giá trị sức lao động",
-      "Ép công nhân đi làm sớm về muộn",
-      "Cắt giảm tiền phúc lợi của công nhân",
-      "Mở rộng quy mô nhà xưởng"
+      "Vai trò khác nhau của các bộ phận tư bản trong việc tạo ra giá trị thặng dư",
+      "Phương thức chuyển dịch giá trị của chúng vào sản phẩm trong quá trình sản xuất",
+      "Vị trí của chúng trong các giai đoạn tuần hoàn của tư bản công nghiệp",
+      "Khả năng thay đổi về lượng của chúng khi quy mô sản xuất mở rộng"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 13,
-    "question": "Giá trị thặng dư siêu ngạch có đặc điểm gì?",
+    "question": "Tốc độ chu chuyển tư bản ($n = CH/ch$) tăng lên có tác động như thế nào đến nhà tư bản?",
     "options": [
-      "Là mục tiêu phấn đấu của mọi nhà tư bản và có tính chất tạm thời",
-      "Chỉ xuất hiện ở các doanh nghiệp lạc hậu",
-      "Tồn tại vĩnh viễn trong một doanh nghiệp duy nhất",
-      "Do nhà nước cấp cho doanh nghiệp"
+      "Làm giảm tỷ suất giá trị thặng dư trên mỗi đơn vị sản phẩm được làm ra",
+      "Làm tăng khối lượng giá trị thặng dư hàng năm trên một lượng vốn nhất định",
+      "Làm tăng giá trị của tư bản bất biến do máy móc được sử dụng hiệu quả hơn",
+      "Làm giảm sự bóc lột vì công nhân được nghỉ ngơi nhiều hơn giữa các chu kỳ"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 14,
-    "question": "Thực trạng tăng ca liên tục tại các KCN Việt Nam hiện nay là biểu hiện của phương pháp sản xuất nào?",
+    "question": "Tại sao giá trị thặng dư siêu ngạch lại có tính chất tạm thời đối với từng nhà tư bản cá biệt?",
     "options": [
-      "Sản xuất giá trị thặng dư tương đối",
-      "Sản xuất giá trị thặng dư siêu ngạch",
-      "Sản xuất giá trị thặng dư tuyệt đối",
-      "Sản xuất giá trị sử dụng"
+      "Vì máy móc sẽ nhanh chóng bị hỏng hóc nếu vận hành với công suất quá cao",
+      "Vì các đối thủ sẽ bắt chước công nghệ, làm năng suất lao động xã hội tăng lên",
+      "Vì người lao động sẽ yêu cầu tăng lương tương ứng với mức năng suất mới",
+      "Vì nhà nước sẽ đánh thuế cao hơn đối với các doanh nghiệp có lợi nhuận đột biến"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 15,
-    "question": "Tiền công dưới chủ nghĩa tư bản che đậy điều gì?",
+    "question": "Mối quan hệ Vốn - Lao động tại Việt Nam hiện nay có đặc điểm gì khác biệt so với lý thuyết thuần túy của Mác?",
     "options": [
-      "Sự lười biếng của công nhân",
-      "Bản chất bóc lột (lao động không công)",
-      "Sự phát triển của công nghệ",
-      "Lợi ích chung của xã hội"
+      "Sự đối kháng giai cấp đã hoàn toàn biến mất nhờ sự phát triển của công nghệ",
+      "Sự can thiệp của Nhà nước và Công đoàn giúp bảo vệ giá trị hàng hóa sức lao động",
+      "Người lao động tại các KCN đã trở thành chủ sở hữu thực sự của tư liệu sản xuất",
+      "Giá trị thặng dư được chia đều cho công nhân dưới hình thức tiền thưởng cuối năm"
     ],
     "answer": 1
   },
   {
     "id": 16,
-    "question": "Các doanh nghiệp FDI đầu tư máy móc hiện đại tại Việt Nam nhằm mục đích gì dưới góc độ kinh tế chính trị?",
+    "question": "Trong ví dụ về nhà máy sợi, nếu nhà tư bản tăng thời gian lao động từ 12h lên 14h, điều gì sẽ xảy ra?",
     "options": [
-      "Làm từ thiện cho người lao động",
-      "Chỉ để bảo vệ môi trường",
-      "Tăng năng suất để thu giá trị thặng dư tương đối và siêu ngạch",
-      "Giảm bớt quyền lực của công đoàn"
+      "Giá trị sức lao động (v) sẽ tăng lên tỉ lệ thuận với thời gian tăng thêm",
+      "Giá trị thặng dư (m) sẽ tăng lên theo phương pháp sản xuất tuyệt đối",
+      "Tỷ suất giá trị thặng dư (m') sẽ giảm do công nhân mệt mỏi và làm việc kém",
+      "Toàn bộ giá trị mới tạo ra sẽ chỉ dùng để bù đắp chi phí nguyên liệu"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 17,
-    "question": "Tư bản cố định bao gồm những yếu tố nào?",
+    "question": "Sự phân chia Tư bản bất biến (c) và Tư bản khả biến (v) có ý nghĩa quan trọng nhất là:",
     "options": [
-      "Nguyên liệu, nhiên liệu",
-      "Tiền lương công nhân",
-      "Máy móc, thiết bị, nhà xưởng",
-      "Hàng hóa đang bày bán"
+      "Giúp nhà tư bản quản lý tài chính doanh nghiệp một cách khoa học và chặt chẽ",
+      "Vạch rõ nguồn gốc thực sự của giá trị thặng dư là do lao động làm thuê tạo ra",
+      "Xác định chính xác thời gian cần thiết để khấu hao máy móc và nhà xưởng",
+      "Làm cơ sở để phân chia lợi nhuận giữa các cổ đông trong công ty tư bản"
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "id": 18,
-    "question": "Theo thực tế tại Việt Nam, tiền lương công nhân tại các KCN thường đáp ứng mức độ nào?",
+    "question": "Vì sao các doanh nghiệp FDI tại Việt Nam luôn ưu tiên đầu tư vào công nghệ tự động hóa?",
     "options": [
-      "Dư thừa để đầu tư chứng khoán",
-      "Vừa đủ trang trải mức sống tối thiểu để tái sản xuất sức lao động",
-      "Thấp hơn rất nhiều so với quy định quốc tế",
-      "Cao hơn mức lương của các nước phát triển"
+      "Để giảm bớt cường độ lao động và cải thiện sức khỏe cho công nhân địa phương",
+      "Để thu được giá trị thặng dư siêu ngạch và gia tăng khả năng cạnh tranh quốc tế",
+      "Để thực hiện cam kết hỗ trợ Việt Nam trở thành quốc gia công nghiệp hiện đại",
+      "Để chuyển đổi toàn bộ tư bản khả biến thành tư bản bất biến nhằm giảm rủi ro"
     ],
     "answer": 1
   },
   {
     "id": 19,
-    "question": "Mối quan hệ Vốn - Lao động tại Việt Nam được Nhà nước điều tiết thông qua công cụ nào?",
+    "question": "Thời gian lao động thặng dư được định nghĩa là:",
     "options": [
-      "Luật Lao động và tổ chức Công đoàn",
-      "Hệ thống chứng khoán",
-      "Các tổ chức phi chính phủ nước ngoài",
-      "Việc phân phát lương thực miễn phí"
+      "Thời gian công nhân làm thêm ngoài giờ để kiếm thêm thu nhập trang trải cuộc sống",
+      "Phần ngày lao động còn lại sau khi đã bù đắp đủ giá trị sức lao động của công nhân",
+      "Tổng thời gian mà máy móc hoạt động vượt quá công suất định mức của nhà máy",
+      "Thời gian cần thiết để sản xuất ra một lượng hàng hóa bằng với chi phí nguyên liệu"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "id": 20,
-    "question": "Khối lượng giá trị thặng dư (M) phản ánh điều gì?",
+    "question": "Theo quan điểm của Mác, 'sự bóc lột' trong nền kinh tế tư bản mang tính chất:",
     "options": [
-      "Trình độ bóc lột",
-      "Quy mô bóc lột của nhà tư bản",
-      "Chất lượng sản phẩm",
-      "Tốc độ máy móc chạy"
+      "Cưỡng bức bằng vũ lực như trong chế độ chiếm hữu nô lệ hoặc phong kiến",
+      "Áp đặt bất bình đẳng thông qua hệ thống luật pháp của nhà nước tư sản",
+      "Khách quan, dựa trên sự trao đổi ngang giá trên thị trường hàng hóa sức lao động",
+      "Chủ quan, phụ thuộc vào lòng tham và đạo đức của từng nhà tư bản cá biệt"
     ],
-    "answer": 1
+    "answer": 2
   }
 ]
