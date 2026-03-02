@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Điểm mấu chốt tạo nên sự mâu thuẫn trong công thức chung của tư bản ($T - H - T'$) là gì?",
+    "question": "Điểm mấu chốt tạo nên sự mâu thuẫn trong công thức chung của tư bản (T - H - T') là gì?",
     "options": [
       "Sự chênh lệch về giá trị sử dụng giữa hai loại hàng hóa",
       "Giá trị thặng dư không thể sinh ra từ lưu thông nhưng lại thể hiện qua lưu thông",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "question": "Trong công thức $G = c + v + m$, bộ phận 'c' (Tư bản bất biến) đóng vai trò gì trong việc hình thành giá trị hàng hóa?",
+    "question": "Trong công thức G = c + v + m, bộ phận 'c' (Tư bản bất biến) đóng vai trò gì trong việc hình thành giá trị hàng hóa?",
     "options": [
       "Tạo ra giá trị mới lớn hơn thông qua việc áp dụng kỹ thuật tiên tiến",
       "Chuyển nguyên vẹn giá trị cũ vào sản phẩm thông qua lao động cụ thể",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "question": "Sự khác biệt bản chất giữa Tỷ suất giá trị thặng dư ($m'$) và Khối lượng giá trị thặng dư ($M$) là gì?",
+    "question": "Sự khác biệt bản chất giữa Tỷ suất giá trị thặng dư (m') và Khối lượng giá trị thặng dư (M) là gì?",
     "options": [
       "m' phản ánh hiệu quả kinh tế, còn M phản ánh tốc độ quay vòng của vốn",
       "m' phản ánh trình độ bóc lột, còn M phản ánh quy mô của sự bóc lột đó",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "question": "Tốc độ chu chuyển tư bản ($n = CH/ch$) tăng lên có tác động như thế nào đến nhà tư bản?",
+    "question": "Tốc độ chu chuyển tư bản (n = CH/ch) tăng lên có tác động như thế nào đến nhà tư bản?",
     "options": [
       "Làm giảm tỷ suất giá trị thặng dư trên mỗi đơn vị sản phẩm được làm ra",
       "Làm tăng khối lượng giá trị thặng dư hàng năm trên một lượng vốn nhất định",
