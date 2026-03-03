@@ -147,7 +147,22 @@ export default function Game() {
             setHiddenOptions(wrong);
             setUsed({ ...used, fifty: true });
           }}
-          useChange={() => setUsed({ ...used, change: true })}
+          useChange={() => {
+            fetch("/questions.json")
+              .then((r) => r.json())
+              .then((d) => {
+                // Find a question not currently in our 10 questions and swap
+                const newPool = d.filter(q => !questions.some(existing => existing.question === q.question));
+                const replacement = newPool[Math.floor(Math.random() * newPool.length)];
+
+                const newQuestions = [...questions];
+                newQuestions[current] = replacement;
+
+                setQuestions(newQuestions);
+                setHiddenOptions([]);
+                setUsed({ ...used, change: true });
+              });
+          }}
           useCall={() => {
             alert(`📞 Người thân nghĩ là: ${q.options[q.answer]}`);
             setUsed({ ...used, call: true });
