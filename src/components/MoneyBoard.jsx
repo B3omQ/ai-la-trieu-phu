@@ -1,22 +1,29 @@
 import { prize } from "../data/prize";
 
 export default function MoneyBoard({ current }) {
+  // Reversing the array to show highest value at top
+  const totalQuestions = prize.length;
+
   return (
-    <div style={{ width: 250 }}>
-      {prize.map((m, i) => (
-        <div
-          key={i}
-          style={{
-            padding: 8,
-            background: current === i ? "#ffd700" : "#003566",
-            color: current === i ? "#000" : "#ffd700",
-            marginBottom: 4,
-            borderRadius: 6
-          }}
-        >
-          Câu {i + 1}: {m.toLocaleString()} VND
-        </div>
-      ))}
+    <div className="money-board">
+      {prize.map((m, index) => {
+        let statusClass = "upcoming";
+        if (index === current) statusClass = "active";
+        else if (index < current) statusClass = "passed";
+
+        const isMilestone = index === 4 || index === 9 || index === 14;
+        const milestoneClass = isMilestone ? "milestone" : "";
+
+        return (
+          <div
+            key={index}
+            className={`money-item ${statusClass} ${milestoneClass}`}
+          >
+            <span>{index + 1}</span>
+            <span>{m.toLocaleString()}</span>
+          </div>
+        );
+      })}
     </div>
   );
 }

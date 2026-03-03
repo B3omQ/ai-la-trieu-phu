@@ -16,15 +16,16 @@ export default function Start() {
       <h1 className="title">AI LÀ TRIỆU PHÚ</h1>
 
       <input
-        placeholder="Nhập tên người chơi"
+        className="input-field"
+        placeholder="Nhập tên người chơi..."
         value={name}
         onChange={e => setName(e.target.value)}
-        style={{ padding: 10, fontSize: 18 }}
+        onKeyDown={e => e.key === "Enter" && startGame()}
       />
-      <button className="answer" onClick={startGame}>
+      <button className="btn-start" onClick={startGame}>
         BẮT ĐẦU CHƠI
       </button>
-      <button className="answer" onClick={() => navigate("/records")}>
+      <button className="btn-start" onClick={() => navigate("/records")} style={{ fontSize: '16px', padding: '10px 20px', marginTop: '20px' }}>
         Xem Ranking
       </button>
     </div>

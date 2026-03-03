@@ -15,6 +15,10 @@ export default function Game() {
   const [hiddenOptions, setHiddenOptions] = useState([]);
   const [gameOver, setGameOver] = useState(false);
 
+  // States for animation and reveal logic
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [isRevealed, setIsRevealed] = useState(false);
+
   // ⏱️ tổng thời gian đã chơi (giây)
   const [duration, setDuration] = useState(0);
 
@@ -36,18 +40,31 @@ export default function Game() {
   const q = questions[current];
 
   function chooseAnswer(i) {
-    if (i === q.answer) {
-      setMoney(prize[current]);
+    if (selectedAnswer !== null) return; // Prevent multiple clicks
 
-      if (current === 9) {
-        finish(prize[current]);
-      } else {
-        setCurrent(current + 1);
-        setHiddenOptions([]);
-      }
-    } else {
-      finish(money);
-    }
+    setSelectedAnswer(i);
+
+    // Lock in answer (Orange) for 0.3s, then reveal
+    setTimeout(() => {
+      setIsRevealed(true);
+
+      // Wait another 0.7s to show correct/wrong state before moving on
+      setTimeout(() => {
+        if (i === q.answer) {
+          setMoney(prize[current]);
+          if (current === 9) {
+            finish(prize[current]);
+          } else {
+            setCurrent(current + 1);
+            setHiddenOptions([]);
+            setSelectedAnswer(null);
+            setIsRevealed(false);
+          }
+        } else {
+          finish(money);
+        }
+      }, 700);
+    }, 300);
   }
 
   function finish(finalMoney) {
@@ -59,45 +76,59 @@ export default function Game() {
   if (gameOver) {
     return (
       <div className="game end-screen">
-        <h1>🎉 KẾT THÚC</h1>
-        <h2>
+        <h1 className="title">KẾT THÚC</h1>
+        <h2 className="end-prizes">
           {player} đạt {money.toLocaleString()} VND
         </h2>
 
         <button
-          className="answer"
+          className="btn-start"
           onClick={() => (window.location.href = "/")}
         >
-          Về trang đầu
+          VỀ TRANG CHỦ
         </button>
       </div>
     );
   }
 
-  return (
-    <div style={{ display: "flex", gap: 20 }}>
-      <MoneyBoard current={current} />
+  const getAnswerClass = (index) => {
+    let baseClass = "answer ";
+    if (selectedAnswer === index && !isRevealed) {
+      baseClass += "selected";
+    } else if (isRevealed) {
+      if (index === q.answer) {
+        baseClass += "correct";
+      } else if (selectedAnswer === index) {
+        baseClass += "wrong";
+      }
+    }
+    return baseClass.trim();
+  };
 
-      <div className="game">
+  return (
+    <div style={{ display: "flex", gap: 20, width: "100%", justifyContent: "center" }}>
+      <div className="game" style={{ flex: 1, minHeight: 'auto' }}>
         <Timer
           key={current}
           onTimeout={() => finish(money)}
           onTick={setDuration}
+          pause={selectedAnswer !== null}
         />
 
         <div className="question-box">
-          <h2>{q.question}</h2>
+          {q.question}
         </div>
 
         <div className="answers">
           {q.options.map((o, i) =>
-            hiddenOptions.includes(i) ? null : (
+            hiddenOptions.includes(i) ? <div key={i} /> : (
               <button
                 key={i}
-                className="answer"
+                className={getAnswerClass(i)}
                 onClick={() => chooseAnswer(i)}
+                disabled={selectedAnswer !== null}
               >
-                {String.fromCharCode(65 + i)}. {o}
+                <span className="answer-letter">{String.fromCharCode(65 + i)}:</span> {o}
               </button>
             )
           )}
@@ -105,6 +136,7 @@ export default function Game() {
 
         <Lifelines
           used={used}
+          disabled={selectedAnswer !== null}
           use5050={() => {
             const wrong = q.options
               .map((_, i) => i)
@@ -122,6 +154,8 @@ export default function Game() {
           }}
         />
       </div>
+
+      <MoneyBoard current={current} />
     </div>
   );
 }
